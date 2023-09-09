@@ -11,20 +11,21 @@
 
     <title>Fake News Detection</title>
   </head>
-  <body class="bg-gray-200">
-    <header class="text-gray-600 body-font -my-8">
+  <body class="bg-black text-white">
+    <header class="text-white-600 body-font -my-8">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span class="ml-3 text-xl">Fake News Detection</span>
+            <span class="ml-3 text-xl text-white">Fake News Detection</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="/" class="mr-5 hover:text-gray-900">Home</a>
-            <a class="mr-5 hover:text-gray-900">About us</a>
-            <a href="/prediction" class="mr-5 hover:text-gray-900">prediction</a>
-            <a class="mr-5 hover:text-gray-900">Contact us</a>
+            <a href="/" class="mr-5 hover:text-blue-400 hover:font-bold hover:text-xl hover:cursor-pointer">Home</a>
+
+            <a href="/" class="mr-5 hover:text-blue-400 hover:font-bold hover:text-xl hover:cursor-pointer">About us</a>
+            <a href="/prediction" class="mr-5 hover:text-blue-400 hover:font-bold hover:text-xl hover:cursor-pointer">Prediction</a>
+            <a href="/" class="mr-5 hover:text-blue-400 hover:font-bold hover:text-xl hover:cursor-pointer">Contact Us</a>
           </nav>
         </div>
       </header><hr>
@@ -32,16 +33,28 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h2 class="text-xs text-green-500 tracking-widest font-medium title-font mb-1">Machine learning project</h2>
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Fake News Detection</h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Fake News Detection</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-white">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
             <br><p class="text-primary"><b>{{prediction_text}}</b></p>
           </div>
           <div class="center">
             <form action="/prediction" method="POST">
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Enter news headlines</label>
+                  <label for="exampleInputEmail1" class="form-label text-white flex items-center">
+                    <span class="info-text">Enter news headlines</span>
+                    <span class="info-icon ml-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-gray-300" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="12" y1="16" x2="12" y2="12" />
+                            <line x1="12" y1="8" x2="12" y2="8" />
+                        </svg>
+                    </span>
+                </label>
+                
+                
+                </label>
                   <input type="text" class="form-control" id="news" name="news" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
                 </div>
               
                 <button type="submit" class="btn btn-primary">Submit</button>
