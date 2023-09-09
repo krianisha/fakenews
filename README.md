@@ -40,9 +40,11 @@ pip install -r requirements.txt
 python app.py
 ```
 ## Home page
-https://drive.google.com/file/d/1NNgVnLpzzlYZJfy16-ohsdbb6u7qlEQt/view?usp=drive_link
+![image](https://github.com/krianisha/fakenews/assets/126376286/a128fb18-fbc1-409e-bfb9-a4dcd0bec826)
+
 
 
 ## Prediction page
 
-https://drive.google.com/file/d/1zABIpI32RXb7gqKUpfvufdM3y4kKuNhK/view?usp=drive_link
+![image](https://github.com/krianisha/fakenews/assets/126376286/9acf97e8-ffb7-402b-a25d-fc6469bccbb8)
+
