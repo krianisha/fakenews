@@ -2,10 +2,6 @@
 
 This project is available for open source contribution
 
-## Video link on youtube
-If you want a detailed explanation of this project, then feel free to go and watch videos. Make sure if you like the video then please subscribe to my channel.\
-[Fake News Detection Using Machine Learning](https://www.youtube.com/watch?v=CUkggjNNoWs&list=PLA0J2h1KIAR7xoDbI1usGLVRW6_6qiLuq&index=19)
-
 ## Overview  
 The topic of fake news detection on social media has recently attracted tremendous attention. The basic countermeasure of comparing websites against a list of labeled fake news sources is inflexible, and so a machine learning approach is desirable.  Our project aims to use Machine learning algorithms to detect fake news directly, based on the text content of news articles. 
 
@@ -19,13 +15,6 @@ Planning: -
 2. Model Building
 3. Backend work
 4. Deployment 
-
-## Project link
-
-[Fake News Detection Using Machine Learning](https://youtu.be/CUkggjNNoWs)
-
-All parts available in playlist,
-channel name  - [codejay](https://www.youtube.com/channel/UCZnkti7aeEmQ7CzumqEEsLg)
 
 ## Installation
 
@@ -51,9 +40,9 @@ pip install -r requirements.txt
 python app.py
 ```
 ## Home page
+https://drive.google.com/file/d/1NNgVnLpzzlYZJfy16-ohsdbb6u7qlEQt/view?usp=drive_link
 
-![Test Image 1](https://github.com/codejay411/Fake_News_detection/blob/main/Screenshot%20(58).png)
 
 ## Prediction page
 
-![Test Image 1](https://github.com/codejay411/Fake_News_detection/blob/main/Screenshot%20(59).png)
+https://drive.google.com/file/d/1zABIpI32RXb7gqKUpfvufdM3y4kKuNhK/view?usp=drive_link
